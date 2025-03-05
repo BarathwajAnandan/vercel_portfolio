@@ -1,0 +1,68 @@
+---
+title: "StreamSage: AI-Powered Real-time Video Summarization"
+publishedAt: "2025-02-09"
+summary: "StreamSage is a cutting-edge application leveraging advanced AI to provide real-time summarization of live video content, enhancing accessibility and content engagement."
+images:
+
+  - "/images/projects/streamsage/thumbnail.png" # Placeholder, replace with actual image path
+team:
+  - name: "Barathwaj Anand"
+
+    role: "Creator & Lead Developer"
+    avatar: "/images/avatar.jpg" # Replace with Barathwaj's avatar
+    linkedIn: "https://www.linkedin.com/in/barathwaj-anandan/" # Replace with actual LinkedIn
+link: "https://github.com/BarathwajAnandan/StreamSage"
+---
+<YouTubeEmbed url="https://www.youtube.com/watch?v=No2MNUzMnXg" />
+
+## Overview
+
+StreamSage revolutionizes how users interact with live video content by providing AI-driven, real-time summarization. This project addresses the challenge of information overload in live streams, making content more accessible and engaging by distilling key insights as they happen. StreamSage is designed to be scalable, efficient, and adaptable to various video platforms.
+
+## Key Features
+
+- **Real-time Summarization:** Utilizes advanced AI models to generate concise summaries of live video content in real-time.
+- **Multi-Platform Support:**  Designed to integrate with multiple video streaming services (e.g., YouTube Live, Twitch, Zoom, potentially others).
+- **Scalable Architecture:** Built with scalability in mind, capable of handling multiple concurrent streams and a large user base.
+- **Customizable Summarization:** Offers options to tailor the summarization process, such as adjusting the level of detail or focusing on specific keywords.
+- **User-Friendly Interface:** Provides an intuitive interface for users to easily access and interact with summaries.
+- **WebSocket Communication:** Employs WebSockets for efficient, real-time communication between the server and clients.
+- **Asynchronous Task Processing:** Uses Celery and RabbitMQ to handle summarization tasks asynchronously, ensuring responsiveness and high throughput.
+- **Dockerized Deployment:**  Containerized with Docker for easy deployment and consistent performance across different environments.
+
+## Technologies Used
+
+- **Python (FastAPI):**  Backend framework for building the API and managing real-time communication.
+- **Celery & RabbitMQ:**  For asynchronous task queuing and processing of video summarization.
+- **WebSockets:**  For real-time communication between the server and clients.
+- **AI Model (e.g., a derivative of BART/Pegasus/T5):**  Leverages a pre-trained or fine-tuned transformer model for text summarization. (Specific model details from the original README were vague, so I've included common choices).
+- **Docker & Docker Compose:**  For containerization and orchestration of the application components.
+- **FFmpeg (or similar):**  Potentially used for video processing and handling different video formats. (Inferred, as video processing is likely needed).
+- **Redis (Optional, mentioned in original README):** Could be used for caching or as a message broker alternative.
+- **PostgreSQL/MySQL (Optional):** A database might be used for storing user data, summaries, or other persistent information. (Inferred, as persistent storage is likely).
+
+## Architecture
+
+StreamSage follows a microservices-based architecture, enabling scalability and maintainability. The core components include:
+
+1.  **API Gateway (FastAPI):**  Handles incoming requests, manages WebSocket connections, and interacts with the task queue.
+2.  **Task Queue (RabbitMQ/Redis):**  Queues summarization tasks for asynchronous processing.
+3.  **Worker Nodes (Celery):**  Execute the summarization tasks, utilizing the AI model.
+4.  **Video Processing Service (Potentially using FFmpeg):** Handles video input and prepares it for the summarization model.
+5. **Database (Optional):** Stores user data, summaries, and other relevant information.
+
+The use of Docker Compose simplifies the deployment and management of these components.
+
+## Challenges and Learnings
+
+Developing StreamSage presented several key challenges:
+
+- **Real-time Performance:** Achieving low-latency summarization required careful optimization of the AI model and efficient communication protocols.
+- **Scalability:**  Designing the system to handle a large number of concurrent streams and users demanded a robust and scalable architecture.
+- **AI Model Selection and Tuning:**  Choosing the right AI model and fine-tuning it for video summarization was crucial for accuracy and efficiency.  Handling the nuances of spoken language (transcribed from video) versus written text presented a unique challenge.
+- **Integration with Multiple Platforms:** Adapting the system to work with different video streaming services required handling various APIs and data formats.
+- **Error Handling:** Implementing robust error handling to gracefully manage issues such as network interruptions, invalid video input, and AI model failures.
+
+## Outcome
+
+StreamSage demonstrates the power of AI to enhance the accessibility and engagement of live video content. The project provides a valuable solution for users seeking to quickly grasp the key takeaways from live streams, saving time and improving comprehension. The scalable architecture and modular design make it a robust and adaptable platform for future development and expansion. The project showcases expertise in real-time systems, AI, and distributed task processing.

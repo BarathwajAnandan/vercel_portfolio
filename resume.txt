@@ -1,0 +1,74 @@
+Barathwaj Anandan
+  (+1) 412-378-5562 | banandan@alumni.cmu.edu | BarathwajAnandan.com | BarathwajAnandan | barathSA
+ Education
+ Carnegie MellonUniversity- SchoolofComputerScience
+ MASTEROFSCIENCEINROBOTICSYSTEMSDEVELOPMENT
+ Coursework: ComputerVision, Machine Learning , Geometry Vision, Computer Graphics, Visual Recognition
+ PSGCollegeofTechnology
+ BACHELOROFENGINEERINGINROBOTICSANDAUTOMATION
+ Pittsburgh, PA
+ August 2019- May2021
+ Coimbatore, India
+ June2018
+ Coursework: Neural Networks , Vision Systems and ImageProcessing , Artificial Intelligence for Robotics, C++ and Data Structures
+ Skills
+ Programming Python,C++,Bash
+ Tools Git,Bokeh,SLURM,Docker,AWS,solidworks, jupyter
+ DeepLearningLibraries Pytorch,Numpy,mmdetection,langchain,Ollama,Llama-Factory,unsloth
+ Experience
+ Lucid Motors
+ ADAS/AD-PERCEPTIONSOFTWAREENGINEER
+ Newark, CA
+ November2021-Present
+ • Architected and implementedcutting-edgedeeplearningalgorithms for 3D Perception tasks that enable L2+/L3 autonomousdriving
+ features in Lucid vehicles, leveraging large fleet data and modern DL techniques.
+ • Implemented strategies based on quantization, pruning and knowledge distillation techniques to optimize, fine-tune and customize
+ Lucid’s perception DNNs using TensorRT and ONNXtoolchains.
+ • Project Lead: Built a multi-task DL model for 3D traffic light detection & classification.Achieved baseline performance of 95%+ mAP.
+ • Designed an interactive Python dashboard providing enhanced visibility into GPU server utilization and reservations for our local
+ cluster, enabling robust tracking of usage history.
+ • Designedandbuilt Lucid’s Machine Learning framework to enable scalable distributed training and evaluation framework.
+ • ReducedthelaunchtimeofLucidAVStackby3xto<60secondsbyidentifyingbottlenecks in the launch sequence.
+ • Savedtheteamthousandsofhoursbydeveloping andmaintaining a HIL bench setup with hardware connections and software APIs
+ for efficient testing and evaluation of perception system.
+ • Developedanautomatedreportgeneration framework tostreamline smoke testing for perception modules,
+ Carnegie MellonUniversity- Cylab
+ RESEARCHASSISTANT
+ • Workedonobjectdetectionusing multiple cameras placed around the AutonomousVehicle.
+ • UsedJetsonXavier tostreamandtransfer videos from multiple cameras.
+ • Built a python- C++wrapperforcommunicationbetweendatastreamfromcamerasandobjectdetector.
+ IntelinAir, Makers of AgMRI
+ COMPUTERVISIONENGINEER(INTERN)-PUBLISHEDPAPERLINK
+ • Built an efficient object detection model based on Faster RCNN for counting the number of kernels on a corncob.
+ • Developedaninstancesegmentation pipeline based on Mask RCNNtodeterminethequality of individual kernels.
+ • Achievedakernel countaccuracy of 93%.
+ Carnegie MellonUniversity–Cylab|GeneralMotors
+ SHORTTERMSCHOLAR
+ • Built a robust simulator based on OGRE3DEngineusingC++,simulating different sensors like camera.
+ • Implementedalgorithms to simulate the effects of weather conditions, traffic signals and pedestrian on ego vehicle.
+ Selected Projects
+ Pittsburgh, PA
+ January 2021- June2021
+ Champaign,IL
+ May2020-August2020
+ Pittsburgh, PA
+ Jan2018-April 2019
+ Selected Generative AI PersonalProjects |
+ January 2024-Present
+ • DataGen- Architected a novel framework for Synthetic Dataset Generation leveraging Large Language Models to bootstrap smaller
+ models, achieving significant performance gains in specialized domains. Successfully demonstrated the framework by fine-tuning a
+ 3Bparameter modelforcomplexgraphinterpretation tasks using synthetically generated training data.
+ • StreamSage- Developed a Real-time Learning Companion that processes Live Video/Audio streams, providing contextual answers
+ andinstant feedback for seamless educational experiences.
+ • Insightium-DevelopedanAI-drivenAnalyticsPlatformfordetailedstudentperformanceanalysis,generatingComprehensiveReports
+ andPersonalized Learning Pathways.
+ • MovieFlix-EngineeredaRAG-basedmovierecommendationsystemusingLlama-70BandMilvusDB,implementingsemanticsearch
+ for context-aware film suggestions.
+ • PitchPerfect-BuiltanInteractiveAIPresenterthatdynamicallycontrolspresentationswhilemanagingaudienceengagementthrough
+ Real-time Question Processing.
+ • Quizzible.com- Designed Quizzible, an Adaptive Learning Platform that transforms educational content into personalized quizzes
+ with Automated Grading andfeedbacksystems.
+ ApartmentPackageDeliverywithUAV|CMU-Capstone | Website
+ • Built a dronetodeliver packages to apartment balconies autonomously.
+ January- December2020
+ • Implementedarealtimeobstacle detection system based on YOLOv3, trained using custom dataset with an accuracy of 99%.
