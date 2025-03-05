@@ -236,13 +236,13 @@ export default function About() {
                             key={index}
                             border="neutral-medium"
                             radius="m"
-                            minWidth={image.width}
-                            height={image.height}
+                            minWidth={ 300}
+                            height={ 200}
                           >
                             <SmartImage
                               enlarge
                               radius="m"
-                              sizes={image.width.toString()}
+                              sizes={image.width?.toString() || "300"}
                               alt={image.alt}
                               src={image.src}
                             />
@@ -300,13 +300,13 @@ export default function About() {
                             key={index}
                             border="neutral-medium"
                             radius="m"
-                            minWidth={image.width}
-                            height={image.height}
+                            minWidth={image.width || 300}
+                            height={image.height || 200}
                           >
                             <SmartImage
                               enlarge
                               radius="m"
-                              sizes={image.width.toString()}
+                              sizes={image.width?.toString() || "300"}
                               alt={image.alt}
                               src={image.src}
                             />
